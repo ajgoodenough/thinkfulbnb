@@ -94,12 +94,6 @@ form {
   padding: 10px;
 }
 
-legend {
-  font-size: 21px;
-  font-weight: bold;
-  display: flex;
-  justify-content: space-around;}
-
 form label {
   font-weight: bold;
   font-size: 20px;
@@ -147,31 +141,17 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 1000px) {
+@media all and (min-width: 480px) {
   header {
     display: flex;
     justify-content: space-between;
     padding: 0;
   }
-  
+
   .logo {
     margin: 12px 0 12px 20px;
     padding-top: 0;
     font-size: 48px;
-  }
-
-  legend {
-    font-size: 26px;
-    margin: 0 15px 0 0;
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  label {
-    font-size: 20px;
-    display: flex;
-    margin-left: 55px;
-    margin-bottom: 5px;
   }
 
   header nav ul {
